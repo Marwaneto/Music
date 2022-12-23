@@ -1,0 +1,133 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding    : 0                   ;
+    margin     : 0                   ;
+    box-sizing : border-box          ;
+}
+::-webkit-scrollbar {
+    background: rgb(0, 0, 0);
+    width: 8px;
+    transition: 0.9s ease;
+}
+
+::-webkit-scrollbar-thumb {
+    background:  linear-gradient(rgb(0, 26, 255), rgb(255, 0, 0), blue);
+    border-radius: 40px;
+    
+}
+body {
+    background-image : url(../img/background-15.jpg);
+    background-repeat: repeat-y                    ;
+    background-size  : 100%                         ;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+img {
+    width: 365px;
+    height: 330px;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.616);
+    width           : 320px;
+    height          : 480px;
+    box-shadow      : 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius   : 10px;
+    margin          : 5px 51px 5px 5px;
+    overflow        : hidden;
+}
+
+.info {
+    text-align: right;
+    font-size : 22px ;
+}
+.contant {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.download i {
+    color: #000;
+    font-size: 400%;
+}
+.contant-info {
+    display: flex;
+    justify-content: space-between;
+}
+footer {
+    height: 20vh;
+    background-color: rgba(255, 255, 255, 0.582);
+    display: flex;
+    justify-content: space-between;
+
+}
+.social {
+    text-align: right;
+    padding-top: 1vh;
+    padding-left: 70px;
+    text-align: right;
+}
+.social h1 {
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+#youtube {
+    color: red;
+    font-size: 35px;
+    margin-left: 15px;
+}
+#facebook {
+    color: blue;
+    font-size: 35px;
+    margin-left: 15px;
+}
+#twitter {
+    color: rgb(36, 137, 184);
+    font-size: 35px;
+    margin-left: 15px;
+}
+#instagram {
+    color: red;
+    font-size: 35px;
+    margin-left: 15px;
+}
+#github {
+    color: #000;
+    font-size: 35px;
+    margin-left: 15px;
+}
+#tiktok {
+    font-size: 35px;
+    margin-left: 15px;
+}
+.copyrit {
+   margin-top: 8vh;
+}
+.marwan h1 {
+    margin-top: 40px;
+    background:linear-gradient(rgb(0, 26, 255), rgb(255, 0, 0), blue);
+    height: 45px;
+    border-radius: 30px;
+    width: 300px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+@media (max-width:657px){
+    .marwan{
+        padding-left: 20%;
+    }
+
+}
+@media (max-width:660px) {
+    footer {
+        display: block;
+        text-align: center;
+         height: 30vh;
+    }
+   .social {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+   }
+}
