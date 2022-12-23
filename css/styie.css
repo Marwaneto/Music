@@ -36,6 +36,7 @@ img {
     border-radius   : 10px;
     margin          : 5px 51px 5px 5px;
     overflow        : hidden;
+    margin-left: 50px;
 }
 
 .info {
