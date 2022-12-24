@@ -30,7 +30,7 @@ img {
 }
 .card {
     background-color: rgba(255, 255, 255, 0.616);
-    width           : 350px;
+    width           : 320px;
     height          : 550px;
     box-shadow      : 0 5px 25px rgba(1 1 1 / 15%);
     border-radius   : 10px;
